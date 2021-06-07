@@ -1,0 +1,162 @@
+
+@media only screen and (max-width: 1200px) {
+     .hero-text-box {
+    width: 100%;
+    padding: 0 3%;
+    }
+    .row {
+        padding: 0 3%;
+    }
+    .main-nav{
+        margin-right: 20px;
+    }
+    .icon-fine{
+        margin-top: 50%;
+    }
+    .about{
+        right: 1%;
+    }
+    hr{
+        display: none;
+    }
+    .company-img{
+        right: -28%;
+        padding-top: 50px;
+        position: absolute;
+
+    }
+    .hero-text-box h1{
+        font-size: 40px;
+    }
+    .banner-img{
+         height: 400px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+     body{font-size: 18px;}
+    .hero-text-box {
+    width: 100%;
+    padding: 0 3%;
+    }
+     .row {
+        padding: 0 3%;
+    }
+    .hero-text-box h1{
+        font-size: 35px;
+    }
+    .company-img{
+        right: -35%;
+        padding-top: 20px;
+        position: absolute;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+     body{font-size: 16px;}
+    .hero-text-box {
+       position: absolute;
+        width: 100;
+        top:50%;
+        left: 60%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        
+    }
+     .banner-img{
+         display: none;
+    }
+    .main-nav{display: none;}
+    .icon-fine{
+        display: none;
+    }
+     .title{
+        margin-left: 50px;
+    }
+    .second-section{
+        width: 100%;
+    }
+    .second-section h1,h2{
+        font-size: 30px;
+    }
+    .second-section p{
+        width: 100%;
+    }
+    .first-section{
+        width: 100%;
+        height: 140vh;
+    }
+    .first-section .box{
+        width: 100%;
+    }
+    .icon-big{
+    font-size: 250%;
+    color:#c32865;
+}
+    .first-section h1{
+        font-size: 30px;
+    }
+    .inherit h3{
+        font-weight: 500;
+        margin-bottom: 20px;
+}
+    .third-class{
+        width: 100%;
+    }
+    .aboutus{
+        width: 100%;
+    }
+    .third-class p{
+        width: 400px;
+        position: absolute;
+        left: -20%;
+        margin-top: 150px;
+    }
+    .fourth-section{
+        width: 100%;
+        height: 180vh;
+    }
+    .fourth-section .reg{
+        width: 100%;
+        margin-left: 30%;
+    }
+     .fourth-section .col{
+        width: 100%;
+        margin-left: 30%;
+    }
+    .fourth-section .basic{
+        width: 100%;
+        display: block;
+        right: -5%;
+        margin-top: 80%;
+        position: absolute;
+        
+    }
+    .fourth-section .verti{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+        height: 150vh;
+    }
+    .footer .verti{
+        display: none;
+    }
+    .footer .col{
+        width: 100%;
+    }
+    .company-img{
+        width: 100%;
+        right:-1px;
+    }
+    .company-name{
+        margin-left: 23%;
+    }
+    .footer .rules{
+        font-size: 30px;
+    }
+    
+
+} 
